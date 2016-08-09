@@ -22,6 +22,15 @@
     'include': '#line_comments'
   }
   {
+    'begin': '\'\'\''
+    'end': '\'\'\''
+    'patterns': [
+      {
+        'include': 'source.language.antimony'
+      }
+    ]
+  }
+  {
     'match': '\\b(?i:(0x\\h*)L)'
     'name': 'constant.numeric.integer.long.hexadecimal.python'
   }
