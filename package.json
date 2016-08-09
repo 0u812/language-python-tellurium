@@ -1,5 +1,5 @@
 {
-  "name": "language-python",
+  "name": "language-python-tellurium",
   "version": "0.47.0",
   "engines": {
     "atom": "*",
